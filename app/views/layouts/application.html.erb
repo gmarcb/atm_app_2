@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gimme $$$ ATM</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  <%= javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" %>
+
+  <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css" %>
+
+  <%= javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js" %>
+
+
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
